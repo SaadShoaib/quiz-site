@@ -1,0 +1,32 @@
+.options-container {
+    display: flex;
+    gap: 55px;
+    padding: 0 80px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: grey;
+}
+
+.highlighted-option {
+    background-color: grey;
+}
+
+.correct-option {
+    background-color: #94D7A2;
+}
+
+.wrong-option {
+    background-color: #F8BCBC;
+}

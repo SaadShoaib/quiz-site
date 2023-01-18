@@ -1,0 +1,16 @@
+.question-container {
+    margin: 26px 0px;
+    border-bottom: 2px solid #DBDEF0;
+}
+
+.question {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #293264;
+    padding: 0 80px;
+    text-align: left;
+}

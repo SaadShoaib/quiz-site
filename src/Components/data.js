@@ -1,0 +1,51 @@
+export const data = [
+  {
+    question: "What is the height of burj khalifa?",
+    option1: { text: "100m", check: false },
+    option2: { text: "10m", check: false },
+    option3: { text: "830m", check: true },
+    option4: { text: "5000m", check: false },
+  },
+  {
+    question: "What was the age of Einstein?",
+    option1: { text: "100", check: false },
+    option2: { text: "60", check: false },
+    option3: { text: "76", check: true },
+    option4: { text: "54", check: false },
+  },
+  {
+    question: "Who invented linux?",
+    option1: { text: "Bill Gates", check: false },
+    option2: { text: "Elon Musk", check: false },
+    option3: { text: "Steve Jobs", check: false },
+    option4: { text: "Linus Trovalds", check: true },
+  },
+  {
+    question: "From which language does the word 'meme' come from?",
+    option1: { text: "Latin", check: false },
+    option2: { text: "Spanish", check: false },
+    option3: { text: "Japanese", check: false },
+    option4: { text: "Greek", check: true },
+  },
+  {
+    question: "Which is the most popular social media platform?",
+    option1: { text: "Facebook", check: true },
+    option2: { text: "Instagram", check: false },
+    option3: { text: "Youtube", check: false },
+    option4: { text: "Snapchat", check: false },
+  },
+  {
+    question: 'When did world war 2 end?',
+    option1: { text: "1940", check: false },
+    option2: { text: "1932", check: false },
+    option3: { text: "1930", check: false },
+    option4: { text: "1945", check: true },
+  },
+  {
+    question: "What is the name of the first astronaut?",
+    option1: { text: "Neil Armstrong", check: false },
+    option2: { text: "Yuri Gagarin", check: true },
+    option3: { text: "Buzz Aldrin", check: false },
+    option4: { text: "Sally Ride", check: false },
+  },
+];
